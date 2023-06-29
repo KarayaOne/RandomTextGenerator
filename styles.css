@@ -1,0 +1,74 @@
+* {
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.heading {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+}
+.lorem-form {
+    text-transform: capitalize;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-form label {
+    margin-right: 0.5rem;
+}
+.lorem-form input {
+    width: 2.5rem;
+    margin-right: 0.5rem;
+    border: 2px solid black;
+}
+.lorem-form button {
+    background-color: darkolivegreen;
+    border: 1px solid  goldenrod;
+    color: white;
+    box-shadow: 0 0 2px;
+    padding: .3rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.lorem-form button:hover {
+    background-color: goldenrod;
+    border: 1px solid  darkolivegreen;
+}
+.text-output {
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 3px;
+    overflow: scroll;
+}
+.lorem-text {
+    padding: 1rem;
+    color: rgb(49, 48, 48);
+    font-size: .8em;
+}
+.copy {
+    text-transform: uppercase;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: darkolivegreen;
+    border: 1px solid goldenrod;
+    color: white;
+    box-shadow: 0 0 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.copy:hover {
+    background-color: goldenrod;
+    transform: scale(1.1);
+    border: 1px solid darkolivegreen;
+}
+.copy-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
